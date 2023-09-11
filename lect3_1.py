@@ -15,7 +15,7 @@ print(my_set)
 set_tmp = set("hello")
 print(set_tmp)
 '''
-
+'''
 my_set = {5, 8, 3, 7, 1, "h"}
 set_item = {7, 8, 4, 2, "h"}
 print(my_set | set_item)
@@ -72,7 +72,7 @@ print(my_int)
 print(my_int + 10)
 #my_int2 = int("ten") #에러
 #print(my_int2)
-
+'''
 '''
 x = 10
 y = 3
