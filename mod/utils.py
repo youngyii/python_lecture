@@ -1,5 +1,7 @@
 import math
 import random
+from datetime import datetime as dt
+import os
 
 def mt_sqrt(x) :
     return math.sqrt(x)
@@ -29,3 +31,27 @@ def rd_rd():
 
 def rd_nv():
     return random.normalvariate()
+
+#---------
+
+def get_dtnow() :
+    return dt.now()
+
+def cvt_time2str(objtime) :
+    return dt.strptime(objtime, "%Y-%m-%d")
+
+def cvt_str2time(strtime) :
+    return dt.strftime("%Y-%m-%d")
+
+#----------
+
+def get_curdir() :
+    return os.getcwd()
+
+def os_mkdir(pname) :
+    os.mkdir(pname)
+    return os.getcwd()
+
+def os_rmdir(pname) :
+    os.rmdir(pname)
+    return os.getcwd()
