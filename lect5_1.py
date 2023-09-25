@@ -108,7 +108,7 @@ print(top) #3
 print(st)
 print(len(st))
 '''
-
+'''
 # append, pop 이용한 queue
 # 빈 큐 생성
 queue = []
@@ -128,3 +128,4 @@ front = queue.pop(0)
 print(front)
 print(queue)
 print(len(queue))
+'''
