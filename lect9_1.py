@@ -119,7 +119,7 @@ from faker import Faker as fk
 temp = fk("ko-KR")
 print(temp.name())
 
-with open("fktemp.txt", "w", newline='') as f:
+with open("fktemp.csv", "w", newline='') as f:
     for i in range(30):
         f.write(temp.name() + "\n" + 
             temp.address() + "\n" + 
