@@ -121,17 +121,17 @@ print(temp.name())
 
 with open("fktemp.csv", "w", newline='') as f:
     for i in range(30):
-        f.write(temp.name() + "\n" + 
-            temp.address() + "\n" + 
-            temp.postcode() + "\n" + 
-            temp.company() + "\n" + 
-            temp.job() + "\n" + 
-            temp.phone_number() + "\n" + 
-            temp.email() + "\n" + 
-            temp.user_name() + "\n" + 
-            temp.ipv4_private() + "\n" + 
-            temp.ipv4_public() + "\n" + 
-            temp.catch_phrase() + "\n" + 
+        f.write(temp.name() + "," + 
+            temp.address() + "," + 
+            temp.postcode() + "," + 
+            temp.company() + "," + 
+            temp.job() + "," + 
+            temp.phone_number() + "," + 
+            temp.email() + "," + 
+            temp.user_name() + "," + 
+            temp.ipv4_private() + "," + 
+            temp.ipv4_public() + "," + 
+            temp.catch_phrase() + "," + 
             temp.color_name() + "\n")
 '''
 '''
